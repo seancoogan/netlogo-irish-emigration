@@ -1,0 +1,137 @@
+{UTF-8}
+Safety  = A FUNCTION OF( Food)
+	~	
+	~		|
+
+Disease  = A FUNCTION OF( Over Population,Starvation)
+	~	
+	~		|
+
+Push factor from Ireland  = A FUNCTION OF( Disease,Lack of economic diversity,Over Population\
+		,Political oppression)
+	~	
+	~		|
+
+Pull factor to US  = A FUNCTION OF( Employment,Established Irish population,Land,Safety\
+		)
+	~	
+	~		|
+
+Irish Emigration Causal Loop Diagram  = A FUNCTION OF( )
+	~	
+	~		|
+
+Desire to emigrate  = A FUNCTION OF( Pull factor to US,Push factor from Ireland)
+	~	
+	~		|
+
+Employment  = A FUNCTION OF( )
+	~	
+	~		|
+
+Established Irish population  = A FUNCTION OF( )
+	~	
+	~		|
+
+Food  = A FUNCTION OF( Money)
+	~	
+	~		|
+
+Lack of economic diversity  = A FUNCTION OF( )
+	~	
+	~		|
+
+Land  = A FUNCTION OF( )
+	~	
+	~		|
+
+Money  = A FUNCTION OF( Employment)
+	~	
+	~		|
+
+Political oppression  = A FUNCTION OF( )
+	~	
+	~		|
+
+Over Population  = A FUNCTION OF( )
+	~	
+	~		|
+
+Starvation  = A FUNCTION OF( Over Population)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Push factor from Ireland,362,239,44,14,8,3,0,0,0,0,0,0
+10,2,Pull factor to US,570,236,43,8,8,3,0,0,0,0,0,0
+10,3,Starvation,141,241,27,8,8,3,0,0,0,0,0,0
+10,4,Disease,248,215,21,8,8,3,0,0,0,0,0,0
+10,5,Over Population,339,130,42,8,8,3,0,0,0,0,0,0
+10,6,Lack of economic diversity,168,302,47,14,8,3,0,0,0,0,0,0
+10,7,Political oppression,348,378,50,8,8,3,0,0,0,0,0,0
+10,8,Safety,649,155,18,8,8,3,0,0,0,0,0,0
+10,9,Food,704,200,15,8,8,3,0,0,0,0,0,0
+10,10,Established Irish population,537,367,43,14,8,3,0,0,0,0,0,0
+10,11,Employment,658,299,33,8,8,3,0,0,0,0,0,0
+10,12,Land,650,355,15,8,8,3,0,0,0,0,0,0
+10,13,Money,746,269,19,8,8,3,0,0,0,0,0,0
+1,14,5,3,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(165,162)|
+1,15,5,1,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(359,170)|
+1,16,4,1,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(268,245)|
+1,17,6,1,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(305,324)|
+1,18,7,1,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(382,316)|
+1,19,8,2,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(587,186)|
+1,20,10,2,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(513,286)|
+1,21,11,13,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(709,316)|
+1,22,13,9,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(758,217)|
+1,23,5,4,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(262,148)|
+10,24,Desire to emigrate,466,238,47,8,8,3,0,0,0,0,0,0
+1,25,1,24,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(403,184)|
+1,26,2,24,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(505,196)|
+10,27,Irish Emigration Causal Loop Diagram,492,124,66,16,8,3,0,8,0,0,0,0,-1--1--1,0-0-0,|14||0-0-0
+1,28,3,4,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(200,268)|
+1,29,9,8,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(691,158)|
+1,30,11,2,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(612,278)|
+1,31,12,2,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(577,312)|
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Desire to emigrate
+24:0
+25:0
+26:0
